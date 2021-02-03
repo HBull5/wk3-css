@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100px;
+	width: 50%;
+	border: 3px solid white;
+	background: firebrick;
+}
+
+div {
+	height: 75%;
+	width: 50%;
+	border: 3px solid blue;
+}
+
+/* div {
+	font-size: 40px;
+} */
+
+.lead {
+	/* font-size: 2rem; */
+}
+
+p {
+	/* font-size: 16px; */
+	/* REM */
+	/* font-size: 1.5rem; */
+	/* EM */
+	/* font-size: 1.5em; */
+	/* font-size: 1.2rem;
+	margin: 1rem; */
+}
+
+/* @media (max-width: 500px) {
+	:root {
+		font-size: 20px;
+	}
+} */

@@ -1,0 +1,39 @@
+/* div p {
+	color: green;
+}
+
+section > p {
+	color: red;
+}
+
+div + p {
+	color: blue;
+}
+
+input[placeholder] {
+	border-color: purple;
+}
+
+input[placeholder='things'] {
+	border: gold 5px solid;
+} */
+
+/* input[type='email'] {
+	border-color: purple;
+} */
+
+/* div > input[type='email'] {
+	border-color: purple;
+} */
+
+/* div > input[type='text'] + input[type='email'] {
+	border-color: purple;
+} */
+
+div p:first-child {
+	color: green;
+}
+
+div p:last-child {
+	color: blue;
+}
