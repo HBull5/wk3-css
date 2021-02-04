@@ -37,3 +37,15 @@ div p:first-child {
 div p:last-child {
 	color: blue;
 }
+
+/* table tbody tr:nth-child(even) {
+	background: #ccc;
+} */
+
+/* table tbody tr:nth-child(odd) {
+	background: #fff;
+} */
+
+table tbody tr:nth-child(4n + 2) {
+	background: #ccc;
+}
